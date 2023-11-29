@@ -1,0 +1,30 @@
+/* ViewConfirmedOrders.css */
+.confirmed-orders-container {
+  margin: 20px;
+}
+
+.confirmed-orders-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.confirmed-order-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  width: 300px;
+}
+
+.order-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.order-item-details {
+  flex: 1;
+}
+
+/* Add more styles as needed */

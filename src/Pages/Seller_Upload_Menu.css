@@ -1,0 +1,83 @@
+/* CSS for Food Upload Form */
+.seller_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+.food-upload-form {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    1
+  ); /* Optional: Add background color with opacity */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%; /* Make the form 100% wide */
+}
+
+.food-upload-form h2 {
+  text-align: center;
+}
+
+.food-upload-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-upload-form div {
+  margin-bottom: 2px;
+}
+
+.food-upload-form label {
+  font-weight: bold;
+  margin-bottom: 2px;
+  display: block;
+}
+
+.food-upload-form input[type="text"],
+.food-upload-form input[type="number"],
+.food-upload-form textarea,
+.food-upload-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.food-upload-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.food-upload-form button:hover {
+  background-color: #45a049;
+}
+
+.sellerUplaodMenuPage {
+  background: url(https://res.cloudinary.com/dg6vle2w8/image/upload/v1701195975/A11_x8nioi.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.timeBlock {
+  margin-bottom: 5px;
+}

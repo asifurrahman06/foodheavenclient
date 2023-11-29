@@ -1,0 +1,363 @@
+.main-frame,
+.main-frame * {
+  box-sizing: border-box;
+}
+.main-frame {
+  background: #ffffff;
+  width: 1332px;
+  height: 1930px;
+  position: relative;
+  overflow: hidden;
+}
+.header-frame {
+  background: #e04040;
+  width: 1335px;
+  height: 92px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.profile-picture {
+  text-align: left;
+  font: 400 46.66px/21.45px "Abril Fatface", sans-serif;
+  position: absolute;
+  left: 26.33px;
+  top: 2.93px;
+  width: 266.2px;
+  height: 66.31px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile-picture-span {
+  color: #00ff47;
+  font: 400 46.66px/21.45px "Abril Fatface", sans-serif;
+}
+.profile-picture-span2 {
+  color: #ffffff;
+  font: 400 46.66px/21.45px "Abril Fatface", sans-serif;
+}
+.profile-picture-span3 {
+  color: #00ff47;
+  font: 400 46.66px/21.45px "Abril Fatface", sans-serif;
+}
+.profile-picture-span4 {
+  color: #ffffff;
+  font: 400 46.66px/21.45px "Abril Fatface", sans-serif;
+}
+.home-button {
+  color: #ffffff;
+  text-align: left;
+  font: 400 35px/21.45px "Abril Fatface", sans-serif;
+  position: absolute;
+  left: 761px;
+  top: 25px;
+  width: 110.19px;
+  height: 42.9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home-button2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 35px/21.45px "Abril Fatface", sans-serif;
+  position: absolute;
+  left: 899px;
+  top: 25px;
+  width: 110.19px;
+  height: 42.9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profile-name {
+  color: #ffffff;
+  text-align: left;
+  font: 400 35px/21.45px "Abril Fatface", sans-serif;
+  position: absolute;
+  left: 1037px;
+  top: 25px;
+  width: 110.19px;
+  height: 42.9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-frame {
+  background: #e04040;
+  width: 1332px;
+  height: 153px;
+  position: absolute;
+  left: 0px;
+  top: 1777px;
+  overflow: hidden;
+}
+.copyright-group-6-all-rights-reserved {
+  color: #000000;
+  text-align: left;
+  font: 400 24px/24px "Ubuntu", sans-serif;
+  opacity: 0.6000000238418579;
+  position: absolute;
+  left: calc(50% - -122px);
+  top: 90px;
+  width: 445px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact-us {
+  position: absolute;
+  inset: 0;
+}
+.contact-inforamtion-tag {
+  color: #000000;
+  text-align: left;
+  font: 700 24px/24px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 23px;
+  width: 233px;
+}
+.email-logo {
+  position: absolute;
+  left: 74px;
+  top: 95px;
+  overflow: visible;
+}
+.location {
+  color: #000000;
+  text-align: left;
+  font: 400 24px/22px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 111px;
+  top: 61px;
+  width: 231px;
+}
+.location-logo {
+  position: absolute;
+  left: 74px;
+  top: 61px;
+  overflow: visible;
+}
+.email {
+  color: #000000;
+  text-align: left;
+  font: 400 24px/24px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 111px;
+  top: 93px;
+  width: 269px;
+}
+.social-mrdia-links {
+  position: absolute;
+  inset: 0;
+}
+.social-media-logos-and-label {
+  width: 158px;
+  height: 95px;
+  position: static;
+}
+.instragram-label {
+  color: #000000;
+  text-align: left;
+  font: 400 24px/24px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 485px;
+  top: 25px;
+  width: 127px;
+  height: 23px;
+}
+.twitter-label {
+  color: #000000;
+  text-align: left;
+  font: 400 24px/24px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 485px;
+  top: 61px;
+  width: 83px;
+  height: 23px;
+}
+.facebook-label {
+  color: #000000;
+  text-align: left;
+  font: 400 24px/24px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 485px;
+  top: 97px;
+  width: 111px;
+  height: 23px;
+}
+.instagram-logo {
+  position: absolute;
+  left: 454px;
+  top: 26.93px;
+  overflow: visible;
+}
+.twitter-logo {
+  position: absolute;
+  left: 454px;
+  top: 62.71px;
+  overflow: visible;
+}
+.facebook-logo {
+  position: absolute;
+  left: 454px;
+  top: 96.55px;
+  overflow: visible;
+}
+.small-profile-photo {
+  background: linear-gradient(to left, #000000, #000000);
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 1206px;
+  top: 11px;
+}
+.set-your-location-on-map-label {
+  color: #000000;
+  text-align: center;
+  font: 600 35px/22px "Open Sans", sans-serif;
+  position: absolute;
+  left: calc(50% - 213px);
+  top: 162px;
+  width: 426px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map-location-frame {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1259px;
+  height: 560px;
+  position: absolute;
+  left: 41px;
+  top: 211px;
+  overflow: hidden;
+}
+.manual-address-frame {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1259px;
+  height: 629px;
+  position: absolute;
+  left: calc(50% - 625px);
+  top: 960px;
+  overflow: hidden;
+}
+.enter-full-address-label {
+  color: #000000;
+  text-align: left;
+  font: 400 20px/22px "Inter", sans-serif;
+  position: absolute;
+  left: 35px;
+  top: 45px;
+  width: 185px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.any-instructions-label {
+  color: #000000;
+  text-align: left;
+  font: 400 20px/22px "Inter", sans-serif;
+  position: absolute;
+  left: 35px;
+  top: 344px;
+  width: 154px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.enter-full-address-test-field {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.76px;
+  opacity: 0.5;
+  width: 1002px;
+  height: 247px;
+  position: absolute;
+  left: 220px;
+  top: 53px;
+  overflow: hidden;
+}
+.asifur-rahman {
+  color: #000000;
+  text-align: left;
+  font: 400 15.3px/14.53px "Inter", sans-serif;
+  position: absolute;
+  left: 12.24px;
+  top: 7.65px;
+  width: 430.64px;
+  height: 13.77px;
+}
+.additional-info-text-field {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.76px;
+  opacity: 0.5;
+  width: 1002px;
+  height: 234px;
+  position: absolute;
+  left: 220px;
+  top: 344px;
+  overflow: hidden;
+}
+.or-you-can-do-manually {
+  color: #000000;
+  text-align: center;
+  font: 600 35px/22px "Open Sans", sans-serif;
+  position: absolute;
+  left: calc(50% - 213px);
+  top: 890px;
+  width: 426px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.confirm-button {
+  background: #6a6ff6;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 876px;
+  height: 56px;
+  position: absolute;
+  left: 293px;
+  top: 1634px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.confirm-button-text {
+  color: #000000;
+  text-align: center;
+  font: 600 24px/22px "Open Sans", sans-serif;
+  position: absolute;
+  left: 671px;
+  top: 1651px;
+  width: 150px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

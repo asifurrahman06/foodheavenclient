@@ -1,0 +1,58 @@
+/* RiderDashboard.css */
+
+/* Container style */
+div {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Online toggle switch */
+label {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+label input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Assigned Orders list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+strong {
+  color: #333;
+}
+
+.riderDashboardPage {
+  background: url(https://res.cloudinary.com/dg6vle2w8/image/upload/v1701195975/A11_x8nioi.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rider-dashboard-container {
+  min-height: 50vh;
+  margin-bottom: 40px;
+  background-color: white;
+}
